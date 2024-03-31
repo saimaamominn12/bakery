@@ -1,0 +1,188 @@
+/* styles.css */
+
+/* styles.css */
+
+body {
+    font-family: 'Merriweather', serif; /* Use a serif font for a more traditional feel */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #ffd699;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #4d2800; /* Darker color for emphasis */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle text shadow for depth */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4d2800; /* Darker color for emphasis */
+    font-weight: bold; /* Emphasize navigation links */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9900; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffd699;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #4d2800; /* Darker color for emphasis */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    background-color: #f5f5f5; /* Light gray background for items */
+    padding: 20px;
+    border-radius: 10px; /* Slightly larger border radius for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer box shadow */
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px); /* Slightly lift items on hover */
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Slightly larger border radius for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter box shadow for images */
+}
+
+.menu-item h3 {
+    color: #4d2800; /* Darker color for emphasis */
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Increase font size for item titles */
+}
+
+.menu-item p {
+    color: #666;
+    margin-top: 0;
+    font-size: 1em; /* Set font size for item descriptions */
+}
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+}
+
+.contact-form form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form form button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form form button:hover {
+    background-color: #e68a00;
+}
+.contact-form {
+    background-color: #fff; /* White background for contact form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #d4a373; /* Light brown heading color */
+    margin-top: 0;
+}
+
+.contact-form p {
+    color: #666; /* Dark gray paragraph text */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #4d2800; /* Darker brown label color */
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 150px; /* Adjust textarea height */
+}
+
+button[type="submit"] {
+    background-color: #d4a373; /* Light brown button background */
+    color: #fff; /* White button text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffd699; /* Lighter brown button background on hover */
+}
